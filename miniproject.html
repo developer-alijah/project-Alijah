@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Corner</title>
+
+  <!-- Google Fonts import -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- External CSS File Link -->
+  <link rel="stylesheet" href="miniproject.css">
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container navbar">
+
+      <img src="image-Photoroom (3).png" class="logo">
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#order" class="btn-order" >Order Now</a></li>
+      </ul>
+    </div>
+  </header>
+
+<main>
+
+  <!-- Hero Section -->
+  <section class="container hero" id="home">
+    <div class="hero-text">
+      <h1>Your Neighbourhood Pizza, <span>Made Your Way!</span></h1>
+      <p>Freshly baked pizzas with your favourite toppings, made just for you using hand-tossed dough and fresh
+        ingredients.</p>
+      <a href="#menu" class="btn-primary">Build Your Pizza</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://media.istockphoto.com/id/1442417585/photo/person-getting-a-piece-of-cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=k60TjxKIOIxJpd4F4yLMVjsniB4W1BpEV4Mi_nb4uJU="
+        alt="Fresh Baked Pizza">
+    </div>
+  </section>
+
+  <!-- video  -->
+
+  <section class="video-section">
+    <h2 class="section-title">"WATCH HOW WE MAKE FRESH PIZZAS"</h2>
+
+    <div class="video-2">
+      <video controls autoplay loop muted>
+        <source src="vidssave.com Pizza készítés - marketing videó 720P.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+
+  <!-- Highlights / Features -->
+  <section class="container features">
+    <div class="card">
+      <h3>Hand-Tossed Dough :-</h3>
+      <p>Freshly made dough prepared daily for perfect crust.</p>
+    </div>
+    <div class="card">
+      <h3>Fresh Ingredients :-</h3>
+      <p>100% real cheese and locally sourced vegetables.</p>
+    </div>
+    <div class="card">
+      <h3>Wood-Fired Oven :-</h3>
+      <p>Baked in traditional wood-fired oven for rich taste.</p>
+    </div>
+  </section>
+
+  <!-- Menu and Order Form Section -->
+  <section class=" menu-section" id="menu">
+
+    <!-- Left: Pizza Menu -->
+    <div class="menu-left">
+      <div class="section-title">Our Pizza Menu</div>
+      <table class="menu-table">
+        <thead>
+          <tr>
+            <th>Pizza</th>
+            <th>Small</th>
+            <th>Medium</th>
+            <th>Large</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Margherita</td>
+            <td>₹149</td>
+            <td>₹249</td>
+            <td>₹349</td>
+          </tr>
+          <tr>
+            <td>Farmhouse</td>
+            <td>₹179</td>
+            <td>₹299</td>
+            <td>₹399</td>
+          </tr>
+          <tr>
+            <td>Paneer Tikka</td>
+            <td>₹199</td>
+            <td>₹329</td>
+            <td>₹429</td>
+          </tr>
+          <tr>
+            <td>Veggie Delight</td>
+            <td>₹169</td>
+            <td>₹279</td>
+            <td>₹379</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="combo">
+        COMBO DEAL - Medium Pizza + Drink + Garlic Bread ₹349
+      </div>
+    </div>
+
+    <!-- Right: Build Your Pizza Form -->
+    <div class="menu-right" id="order">
+      <div class="section-title">Build Your Pizza</div>
+      <form class="order-form">
+
+        <div class="form-group">
+          <label>1. Choose Crust</label>
+          <div class="options">
+            <label><input type="radio" name="crust" checked> Thin Crust</label>
+            <label><input type="radio" name="crust"> Classic Crust</label>
+            <label><input type="radio" name="crust"> Cheese Burst</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>2. Choose Toppings</label>
+          <div class="options">
+            <label><input type="checkbox" checked> Mushroom</label>
+            <label><input type="checkbox" checked> Olives</label>
+            <label><input type="checkbox" > Corn</label>
+            <label><input type="checkbox" checked> Chicken</label>
+            <label><input type="checkbox"> Paneer</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>3. Your Details</label>
+          <input type="text" class="form-input form-input-spacing" placeholder="Your Name">
+          <input type="tel" class="form-input form-input-spacing" placeholder="Phone Number">
+          <textarea class="form-input" rows="2" placeholder="Delivery Address"></textarea>
+        </div>
+
+        <button  class="btn-submit">Place Order 🛒</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="container" id="gallery">
+    <div class="section-title">Picturey Aesthetic and Mouth Melting Tasty</div>
+    <div class="img-grid">
+      <div class="img-box">
+        <img src="https://wallcastle.com/wp-content/uploads/2023/04/9-scaled.jpg"
+          alt="Pizza 1">
+      </div>
+      <div class="img-box">
+        <img src="https://t4.ftcdn.net/jpg/01/69/75/67/360_F_169756758_xn2mlLjCcUBP57LE2Zlc51fkOqrlu6Ki.jpg"
+          alt="Pizza 2">
+      </div>
+      <div class="img-box">
+        <img src="https://img.magnific.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?semt=ais_hybrid&w=740&q=80"
+          alt="Pizza 3">
+      </div>
+      <div class="img-box">
+        <img src="https://pizzerialangolo.com/pluto-images/eb7cf7ba-5043-4e0c-8e22-6afb1c64c655?w=1920&quality=60&fit=cover" alt="meal 1">
+        </div>
+        <div class="img-box">
+          <img src="pizza corner.jpg" alt="place">
+          </div>
+          <div class="img-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKb-XrU0MILe-4fnGfC67ClX9J0lmh1EAbRcPmgqDwGfDHAsFN5cHSZw&s=10" alt="meal 2">
+
+
+
+
+
+    </div>
+  </section>
+
+  <!-- About & Location Section -->
+  <section class="container info-section" id="about">
+    <div class="info-box">
+      <h3 class="box-title">Find Our Pizza Corner</h3>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7971469541485!2d72.87783317418408!3d19.072654452079597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9598ad468b5%3A0xa355e25756e9a44f!2sNexcore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1786950959568!5m2!1sen!2sin" style="border: 1px solid rgb(200, 56, 26); border-radius: 10px;"></iframe>
+
+    </div>
+
+    <div class="info-box">
+      <h3 class="box-title">About Us</h3>
+      <p class="about-text">
+        Pizza Corner is your friendly neighbourhood pizzeria serving hot,<br/>
+         delicious and customizable pizzas prepared<br/>
+        with fresh ingredients daily. <br/>
+        We believe in great taste, quick delivery andhappy customers!<br/>
+        If you want, I can help you
+      </p>
+    </div>
+  </section>
+</main>
+
+
+<!-- contact -->
+
+  <footer id="Contact">
+    <h3>Contact Us</h3>
+    <a style="text-decoration: none; color: white;" href="mailto:Pizzacorner@gmail.com">Email : Pizzacorner@gmail.com</a>
+  <p>Phone : +91 98765 43210</p>
+    <!-- icons -->
+    <h3>"Find us on"</h3>
+     <div style="display: flex; gap: 10px;align-items: center; justify-content: center ;">
+
+    <img src="https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png"
+      alt="icon 1" width="50px" height="50px" >
+
+    <img
+      src="https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small/youtube-logo-youtube-icon-transparent-free-png.png"
+      alt="icon 2" width="60px" height="65px" >
+
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/065/386/627/non_2x/pinterest-circle-logo-icon-pin-app-transparent-background-premium-social-media-design-for-digital-download-free-png.png"
+        alt="icon 3" width="50px" height="50px" >
+        </div>
+
+
+
+  </footer>
+
+
+</body>
+
+</html>
